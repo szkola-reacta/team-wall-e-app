@@ -1,0 +1,28 @@
+
+.sectionContainer {
+background-color: #1289AD;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    height: 30px;
+    color: #2f3640;
+    text-transform: uppercase;
+    
+   
+}
+
+li {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(231, 231, 231);
+}
+
+
