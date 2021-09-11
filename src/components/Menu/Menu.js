@@ -1,6 +1,6 @@
 import SearchInput from "./SearchInput";
-import BestSales from "../BestSales/BestSales";
 import "./sass/app.scss";
+import BestSales from "../BestSales/BestSales";
 
 const Menu = () => {
   return (
@@ -12,7 +12,7 @@ const Menu = () => {
           <li>menu</li>
           <li>menu</li>
           <li>menu</li>
-          <li><a href="BestSales">promotions</a></li>
+          <li><a href="././comonent/BestSales/BestSales.js">promotions</a></li>
           <li>
             <SearchInput />
           </li>
