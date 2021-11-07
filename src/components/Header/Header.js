@@ -5,6 +5,14 @@ import StarRoundedIcon from "@material-ui/icons/StarRounded";
 import "./sass/app.scss";
 
 const Header = () => {
+  const someFunction1 = () => {
+    console.log("test function 1");
+  };
+
+  const someFunction2 = () => {
+    console.log("test function 2");
+  };
+
   return (
     <header className="header">
       <div className="logo">
