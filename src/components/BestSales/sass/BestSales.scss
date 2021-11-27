@@ -1,3 +1,51 @@
 .SalesBack {
-    background: linear-gradient(500deg, #89ff5a, #f36dff, #5b6eff);;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: url("https://cdn.wallpapersafari.com/7/42/xqlgfA.jpg");
+}
+.salesOffert {
+    border: 5px outset rgba(86, 168, 230, 0.515);
+    background-color: rgba(174, 193, 255, 0.446);
+    margin:5px 5px 5px 5px;
+    height: 235px;
+    width: 235px;
+    display: flex;
+}
+.salesOffert h2 {
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.salesOffert h3 {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.salesOffert .salesHalf h4 {
+    font-size: 11px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    border: 5px inset rgba(60, 145, 237, 0.46);
+    text-align: end;
+}
+.salesHalf {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 5px 4px 5px 4px;
+    margin:0px 4px 0px 4px;
+    text-align: center;
+    
+}
+.salesOffert img {
+    height: 120px;
+    width: 100px;
+    padding-right: 2px;
 }
