@@ -8,7 +8,7 @@ const App = () => {
     <div className="App">
       <Header />
       <Menu />
-      <BestSales />
+      {/* <BestSales /> */}
     </div>
   );
 };
