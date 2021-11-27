@@ -1,6 +1,5 @@
 import SearchInput from "./SearchInput";
 import "./sass/app.scss";
-import BestSales from "../BestSales/BestSales";
 
 const Menu = () => {
   return (
